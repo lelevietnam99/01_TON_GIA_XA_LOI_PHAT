@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thơ Tụng Về Tôn Giả Xá Lợi Phất</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+            color: #e0e6ed;
+            min-height: 100vh;
+            padding: 40px 20px;
+            overflow-x: hidden;
+            position: relative;
+        }
+        /* Hiệu ứng nền vũ trụ và các vì sao */
+        .stars, .twinkling {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .stars {
+            background: #000 url('https://www.script-tutorials.com/demos/360/images/stars.png') repeat top center;
+            z-index: 0;
+        }
+        .twinkling {
+            background: transparent url('https://www.script-tutorials.com/demos/360/images/twinkling.png') repeat top center;
+            z-index: 1;
+            animation: move-twink-back 200s linear infinite;
+        }
+        @keyframes move-twink-back {
+            from { background-position: 0 0; }
+            to { background-position: -10000px 5000px; }
+        }
+        /* Khung chứa nội dung chính */
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 850px;
+            margin: 0 auto;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 30px rgba(125, 211, 252, 0.15);
+        }
+        h1 {
+            color: #38bdf8;
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 15px;
+        }
+        .poem-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 35px;
+        }
+        .poem-stanza {
+            background: rgba(30, 41, 59, 0.6);
+            border-left: 3px solid #38bdf8;
+            padding: 18px 25px;
+            border-radius: 0 12px 12px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .poem-stanza p {
+            line-height: 1.9;
+            font-size: 1.1rem;
+            color: #fbbf24;
+            font-style: italic;
+            text-align: center;
+            font-weight: 500;
+        }
+        .homage-box {
+            background: rgba(245, 158, 11, 0.15);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(245, 158, 11, 0.2);
+        }
+        .homage-box p {
+            color: #fef08a;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(254, 240, 138, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="container">
+        <h1>VII. THƠ TỤNG VỀ TÔN GIẢ XÁ LỢI PHẤT</h1>
+        
+        <div class="poem-container">
+            <div class="poem-stanza">
+                <p>Thành tâm xin đảnh lễ Ngài</p>
+                <p>Bậc Thánh vô ngã vượt ngoài thế gian</p>
+                <p>Thượng Thủ Thống Lĩnh Tăng Đoàn</p>
+                <p>Tướng Quân Chánh Pháp muôn vàn uy nghi</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Tột cùng khiêm hạ từ bi</p>
+                <p>Trí Tuệ Đệ Nhất không gì sánh ngang</p>
+                <p>Núi cao, biển rộng, mây ngàn</p>
+                <p>Khắp nơi vang động lời Ngài dạy răn</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Tiếng sư tử rống gầm vang</p>
+                <p>Phá tan đêm tối, thênh thang con đường</p>
+                <p>Hướng về giác ngộ phi thường</p>
+                <p>Niết Bàn tịch diệt muôn phương không lời</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Lặng lẽ tận tụy không ngơi</p>
+                <p>Xin được làm đất cho đời nở hoa</p>
+                <p>Cho người giẫm bước chân qua</p>
+                <p>Bình an thanh thản hiền hòa bao dung</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Vững như trụ đá kiên trung</p>
+                <p>Niềm tin kính Phật nghìn trùng không phai</p>
+                <p>Chúng con nguyện bước theo Ngài</p>
+                <p>Tâm hồn đẹp tựa sao mai bên trời</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Hạnh phúc đem tặng cuộc đời</p>
+                <p>Hy sinh phụng sự cho người an vui</p>
+                <p>Thân này giả tạm mà thôi</p>
+                <p>Tham sân si mãi chôn vùi tâm linh</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Xin nguyện sống rất nghĩa tình</p>
+                <p>Trước sau trọn vẹn giữ gìn thâm ân</p>
+                <p>Bước qua cuộc sống thế nhân</p>
+                <p>Cho con cúi xuống biết ơn vạn loài</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Tiếng ru bên võng đêm dài</p>
+                <p>Vòng tay ẵm bế những ngày ấu thơ</p>
+                <p>Bài học từ thuở ban sơ</p>
+                <p>Tán cây che chở ước mơ yên bình</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Ơn Phật trải khắp chúng sinh</p>
+                <p>Gửi tình thương lớn muôn trùng biển khơi</p>
+                <p>Lan xa chánh Pháp đẹp ngời</p>
+                <p>Tâm hồn yên lắng là nơi trở về</p>
+            </div>
+            
+            <div class="poem-stanza">
+                <p>Thắp nguồn chân lý bình minh soi đường</p>
+                <p>Biết ơn chiến sĩ dặm trường</p>
+                <p>Biết ơn Tổ quốc quê hương anh hùng</p>
+                <p>Xin nguyện lòng rất khiêm cung</p>
+                <p>Đường thiền gian khó chẳng nề</p>
+                <p>Bến bờ giải thoát hướng về mai sau…</p>
+            </div>
+        </div>
+        
+        <div class="homage-box">
+            <p>Nam Mô Đệ Nhất Trí Tuệ Thống Lĩnh Tăng Đoàn Xá Lợi Phất Tôn Giả (3 lần)</p>
+        </div>
+    </div>
+</body>
+</html>
